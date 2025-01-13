@@ -1,0 +1,234 @@
+@media (max-width: 1600px){
+    .webinar-hero h1{
+        font-size: 50px;
+    }
+    .webinar-hero p{
+        font-size: 25px;
+    }
+    .gobal-webinar-btn a{
+        font-size: 18px;
+    }
+    .gobal-webinar-btn button{
+        font-size: 18px;
+    }
+    .third-title{
+        font-size: 35px;
+    }
+    .second-pra{
+        font-size: 20px;
+    }
+    .fourth-heading{
+        font-size: 25px;
+    }
+    h3.fourth-heading {
+        font-size: 25px;
+    }
+    .perona h4 {
+        margin-bottom: 6px;
+    }
+    .footer-left p{
+        font-size: 20px;
+    }
+    .footer-icon ul li img{
+        width: auto;
+    }
+    .gobal-webinar-btn a {
+        font-size: 18px;
+        padding: 18px 20px;
+    }
+    .gobal-webinar-btn button {
+        font-size: 18px;
+        padding: 18px 20px;
+    }
+}
+@media (max-width: 1400px){
+    .video-container iframe{
+        width: 70%;
+        height: 50vh;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 1251px){
+    .footer-left{
+        width: 45%;
+    }
+    .footer-right{
+        width: 45%;
+    }
+    
+    .footer-right p{
+        font-size: 20px;
+    }
+    .video-container iframe{
+        width: 80%;
+        height: 50vh;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 1050px){
+    .about-speakers {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .for-desktop{
+        display: none;
+    }
+    .for-phone{
+        display: block;
+    }
+    .footer-phone{
+        width: 100%;
+        margin-top: 35px;
+    }
+    .phone-fillow{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .footer-icon p{
+        font-size: 20px;
+        color: #00D6A8;
+        margin-bottom: 10px;
+    }
+    .footer-icon ul{
+        margin: 0;
+        padding: 0;
+        justify-content: flex-start;
+    }
+    .footer-icon ul li{margin-left: 0; margin-right: 10px;}
+    .logo img{
+        width: auto;
+    }
+    .ploicy-list ul{
+        margin-top: 20px;
+        justify-content: center;
+    }
+    .ploicy-list ul li{
+        margin: 0 10px;
+    }
+    .about-web-container{
+        flex-direction: column;
+    }
+    .webn-left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .webn-right{
+        width: 100%;
+    }
+    .ploicy-list ul li::after{
+        display: none;
+    }
+    .video-container iframe{
+        width: 90%;
+        height: 35vh;
+        border-radius: 5px;
+    }
+    .main {
+        width: 95%;
+        margin: 0px auto;
+    }
+}
+
+@media (max-width: 768px){
+    .webinar-hero h1{
+        font-size: 40px;
+    }
+    .webinar-hero p{
+        font-size: 20px;
+    }
+    .webinar-hero{
+        text-align: center;
+    }
+    .persona-img img {
+        width: 83%;
+        margin: 0 auto;
+    }
+    .video-container iframe{
+        width: 100%;
+        height: 30vh;
+        border-radius: 5px;
+    }
+}
+@media (max-width: 600px){
+    .webinar-hero h1{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .webinar-hero p{
+        font-size: 18px;
+    }
+    .logo img {
+        width: 138px;
+    }
+    .agenda-bg h4{
+        font-size: 20px;
+    }
+    .speakers-container{
+        flex-wrap: wrap;
+    }
+    .perona{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-webinar{
+        padding: 50px 0;
+    }
+    .webinar-agenda{
+        margin: 50px 0;
+    }
+    .ploicy-list ul li{
+        font-size: 14px;
+        margin: 0 5px;
+    }
+    .popup-content h3{
+        font-size: 30px;
+    }
+    .popup-content{
+        padding: 30px 20px;
+    }
+}
+@media (max-width: 474px){
+    .video-container iframe{
+        width: 100%;
+        height: 25vh;
+        border-radius: 5px;
+    }
+    .share-popup{
+        width: 95%;
+    }
+}
+@media (max-width: 382px){
+    .third-title {
+        font-size: 30px;
+    }
+    .second-pra {
+        font-size: 18px;
+    }
+    .footer-left p {
+        font-size: 18px;
+    }
+    .ploicy-list ul{
+        flex-wrap: wrap;
+    }
+    .ploicy-list ul li{
+        font-size: 11px;
+        margin: 0 5px;
+    }
+    .video-container iframe{
+        width: 100%;
+        height: 20vh;
+        border-radius: 5px;
+    }
+}
