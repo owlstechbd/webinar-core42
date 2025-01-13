@@ -145,10 +145,37 @@
     .webinar-hero h1{
         font-size: 40px;
     }
+    .header{
+        text-align: center;
+    }
+    .share-webnar {
+        text-align: center;
+    }
+    .share-icon{
+        justify-content: center;
+    }
+    .webn-left{
+        text-align: center;
+    }
     .webinar-hero p{
         font-size: 20px;
     }
+    .about-speakers{
+        text-align: center;
+    }
     .webinar-hero{
+        text-align: center;
+    }
+    .webinar-agenda{
+        text-align: center;
+    }
+    .who-watch {
+        text-align: center;
+    }
+    .who-watch ul li{
+        list-style: none;
+    }
+    .footer-left{
         text-align: center;
     }
     .persona-img img {
