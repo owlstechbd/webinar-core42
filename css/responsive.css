@@ -139,6 +139,31 @@
         width: 95%;
         margin: 0px auto;
     }
+    .whitepaper-container{
+        flex-direction: column;
+    }
+    .whitepaper-left{
+        width: 100%;
+    }
+    .white-papper-img{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .white-footer-left {
+        width: 100%;
+    }
+    .white-footer-right {
+        width: 100%;
+    }
+    .white-footer{
+        flex-direction: row-reverse;
+    }
+    .footer-icon p{
+        text-align: left;
+    }
+    .white-footer-left{
+        text-align: right;
+    }
 }
 
 @media (max-width: 768px){
@@ -187,6 +212,9 @@
         height: 30vh;
         border-radius: 5px;
     }
+    .white-papper-img{
+        width: 60%;
+    }
 }
 @media (max-width: 600px){
     .webinar-hero h1{
@@ -225,6 +253,9 @@
     .popup-content{
         padding: 30px 20px;
     }
+    .white-papper-img{
+        width: 70%;
+    }
 }
 @media (max-width: 474px){
     .video-container iframe{
@@ -234,6 +265,9 @@
     }
     .share-popup{
         width: 95%;
+    }
+    .white-papper-img{
+        width: 80%;
     }
 }
 @media (max-width: 382px){
@@ -257,5 +291,8 @@
         width: 100%;
         height: 20vh;
         border-radius: 5px;
+    }
+    .white-papper-img{
+        width: 90%;
     }
 }

@@ -55,8 +55,9 @@ a:hover {
     align-items: center;
     width: 100%;
     padding: 150px 0;
-    background: url(../images/webinar-hero.png) top right no-repeat;
-    background-size: cover;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: cover!important;
     color: #fff;
 }
 .webinar-hero h1{
@@ -78,6 +79,12 @@ a:hover {
     padding: 1vw 1.302vw;
     background: #00D6A8;
 }
+.gobal-webinar-btn a img{
+    margin-right: 15px;
+    width: 25px;
+    margin-bottom: -5px;
+    
+}
 .gobal-webinar-btn a i{
     margin-right: 15px;
 }
@@ -95,6 +102,11 @@ a:hover {
 }
 .gobal-webinar-btn button i{
     margin-right: 15px;
+}
+.gobal-webinar-btn button img{
+    margin-right: 15px;
+    width: 25px;
+    margin-bottom: -5px;
 }
 .about-webinar{
     width: 100%;
@@ -565,4 +577,53 @@ input[type="submit"] {
 }
 .share-popup ul li{
     margin: 0 4px;
+}
+
+/* whitepaper-container */
+.whitepaper-container{
+    display: flex;
+    justify-content: space-between;
+}
+.whitepaper-left{
+    width: 55%;
+}
+.white-papper-img{
+    width: 25%;
+    text-align: center;
+}
+.white-papper-img img{
+    width: 100%;
+}
+.whitepaper-left p{
+    margin: 20px 0;
+}
+.whitepaper-left ul{
+    padding-left: 20px;
+}
+.whitepaper-left ul li{
+    list-style: disc;
+    margin-bottom: 35px;
+}
+.whitepaper-left ul li span{
+    font-weight: 500;
+}
+.white-footer-left{
+    width: 50%;
+}
+.white-footer-left ul{
+    justify-content: start;
+}
+.white-footer-right{
+    width: 50%;
+}
+.white-footer-right{
+    text-align: right;
+}
+.white-footer-left img{
+    margin-bottom:10px;
+}
+.white-footer-right p{
+    color: #00D6A8;
+    font-size: 25px;
+    margin-bottom: 20px;
 }
